@@ -1,75 +1,103 @@
 # FONTES DE VERDADE
 
 ## Função
-Este arquivo define como a autoridade documental do sistema deve funcionar.
+Este arquivo define onde o sistema deve confiar quando há divergência de informação.
 
-Seu objetivo é impedir contradições entre memória, arquivos de projeto, painel, automações e interpretação do agente.
+Ele existe para reduzir inconsistência entre:
+- memória;
+- arquivos documentais;
+- e estado real dos projetos.
 
----
-
-## Princípio Central
-
-Toda frente relevante deve ter uma fonte de verdade primária explicitamente declarada.
-
-Sem isso, o sistema se fragmenta em versões concorrentes da realidade.
-
----
-
-## Níveis de Autoridade
-
-### 1. Fonte primária
-Documento ou sistema que contém o estado mais confiável de uma frente.
-
-### 2. Fonte secundária
-Sistema auxiliar que complementa a fonte primária com detalhes ou evidências.
-
-### 3. Síntese executiva
-Documento que resume o estado para leitura rápida, sem substituir a fonte primária.
-
-### 4. Memória durável
-Registro apenas do que precisa permanecer para além do ciclo operacional.
+Sem definição clara de fonte de verdade, o sistema tende a:
+- duplicar estados;
+- manter versões conflitantes;
+- e operar com baixa confiabilidade.
 
 ---
 
-## Regra de Conflito
+## Problema atual
 
-Se houver conflito entre documentos:
-1. prevalece a fonte primária declarada;
-2. a síntese executiva deve ser corrigida;
-3. a memória deve ser corrigida apenas se o conflito afetar algo durável;
-4. o histórico anterior deve ser tratado como histórico, não como verdade atual.
+O sistema apresenta:
 
----
-
-## Modelo de Declaração
-
-Cada projeto ou área deve declarar:
-
-- Fonte primária:
-- Fonte secundária:
-- Síntese executiva:
-- Memória relacionada:
-- Última atualização confiável:
+- inconsistência entre arquivos e realidade;
+- parte relevante da informação ainda localizada na cabeça de Caio;
+- documentos que nem sempre refletem o estado real dos projetos.
 
 ---
 
-## Situação Atual do Sistema
+## Situação atual (de fato)
 
-Hoje parte importante da fonte de verdade ainda está:
-- distribuída em arquivos desatualizados;
-- espalhada entre projeto, memória e painel;
-- ou retida na cabeça de Caio.
+A fonte de verdade hoje é predominantemente:
 
-A reconstrução do sistema deve reduzir essa dependência.
+👉 **híbrida, com predominância do estado real percebido por Caio**
+
+Isso significa:
+- o repositório contém estrutura e intenção;
+- mas o estado confiável muitas vezes ainda depende da leitura direta de Caio sobre a realidade.
 
 ---
 
-## Direção Desejada
+## Modelo adotado
 
-O Painel Caio Leite não deve competir com as fontes de verdade.  
-Ele deve, idealmente, tornar-se a principal interface de navegação sobre elas.
+O sistema deve evoluir para:
+
+👉 **modelo híbrido controlado**
+
+Com três níveis:
+
+### 1. Estado real (nível primário)
+- o que de fato está acontecendo no projeto
+- prevalece em caso de conflito
+
+---
+
+### 2. Documentação no repositório (nível secundário)
+- deve refletir o estado real
+- é a principal fonte consultável
+- precisa ser atualizada quando divergir da realidade
+
+---
+
+### 3. Memória informal (nível transitório)
+- inclui percepções, ideias e estados não formalizados
+- deve ser convertida em documentação quando relevante
+
+---
+
+## Regra de conflito
+
+Quando houver divergência:
+
+1. verificar estado real do projeto  
+2. atualizar documentação para refletir esse estado  
+3. evitar coexistência de versões incompatíveis  
+
+---
+
+## Regra de atualização
+
+- o sistema deve preferir atualizar em vez de duplicar;
+- o que foi resolvido não deve permanecer como aberto;
+- o que mudou deve repercutir nos arquivos relevantes.
+
+---
+
+## Implicação operacional
+
+- nenhum arquivo é confiável por si só;
+- confiabilidade depende de atualização consistente;
+- leitura do sistema exige atenção ao estado real.
+
+---
+
+## Relação com o sistema
+
+- impacta: [[SYSTEM]]
+- impacta: [[DASHBOARD-STATUS]]
+- impacta: [[SPRINT]]
+- aplica-se a: todos os projetos e áreas
 
 ---
 
 ## Última Atualização Confiável
-2026-04-09
+2026-04-10
