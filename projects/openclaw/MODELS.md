@@ -198,5 +198,52 @@ A arquitetura deve:
 
 ---
 
+---
+
+## Modelo Principal do Sistema
+
+O modelo principal do OpenClaw passa a ser:
+
+👉 Rique, conforme definido em:
+- [[../../projects/caio-leite/funcoes-rique]]
+- [[../../core/SOUL]]
+
+---
+
+## Implicações dessa decisão
+
+- o núcleo cognitivo deixa de ser um serviço externo isolado;
+- o comportamento do sistema passa a ser governado por identidade e princípios, não apenas por capacidade técnica;
+- a política de modelos passa a ser também política de coerência com o sistema como um todo;
+- a substituição de modelo deixa de ser apenas técnica e passa a ser arquitetural.
+
+---
+
+## Papel dos Modelos Secundários
+
+Outros modelos podem ser utilizados como:
+
+- apoio operacional;
+- fallback;
+- execução de tarefas específicas.
+
+Mas não devem:
+
+- substituir o papel cognitivo central de Rique;
+- operar decisões estruturais;
+- definir comportamento do sistema de forma autônoma.
+
+---
+
+## Regra de Subordinação
+
+Todo modelo secundário deve operar sob:
+
+- limites definidos neste arquivo;
+- comportamento adaptado via [[fallbacks]];
+- supervisão conceitual do núcleo cognitivo (Rique).
+
+---
+
 ## Última Atualização Confiável
 2026-04-10
