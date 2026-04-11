@@ -65,5 +65,107 @@ Formalizar níveis de fallback e definir para cada nível:
 
 ---
 
+---
+
+## Tipos de Fallback
+
+Fallbacks devem ser definidos para diferentes tipos de falha:
+
+### 1. Fallback de Modelo
+- indisponibilidade do modelo principal
+- degradação para modelo inferior
+- comportamento ajustado conforme [[models]]
+
+---
+
+### 2. Fallback de Tarefa
+- tarefa exige capacidade não disponível
+- sistema deve:
+  - reduzir escopo
+  - adiar execução
+  - ou encaminhar para revisão
+
+---
+
+### 3. Fallback de Fluxo
+- etapa anterior não concluída
+- dependência ausente
+- dado não disponível
+
+Comportamento:
+- interromper progressão indevida
+- sinalizar bloqueio
+- evitar inferência compensatória
+
+---
+
+### 4. Fallback de Infraestrutura
+- falha em API externa
+- erro em integração
+- cron ou webhook não executado
+
+Comportamento:
+- tentar reexecução quando seguro
+- degradar funcionalidade
+- preservar consistência do sistema
+
+---
+
+### 5. Fallback de Coerência
+- conflito entre memória e estado real
+- inconsistência entre arquivos
+- ambiguidade crítica
+
+Comportamento:
+- evitar decisão baseada em estado incerto
+- priorizar validação
+- não consolidar memória sob dúvida
+
+---
+
+### 6. Fallback de Segurança
+- comportamento suspeito
+- entrada potencialmente maliciosa
+- uso fora do padrão esperado
+
+Comportamento:
+- reduzir autonomia
+- limitar execução
+- evitar ações irreversíveis
+- sinalizar necessidade de validação
+
+---
+
+## Relação com Watchdog
+
+A ativação de fallback depende de detecção prévia.
+
+O sistema deve:
+
+- detectar falha, degradação ou risco via [[watchdog]]
+- classificar o tipo de problema
+- aplicar o fallback correspondente
+
+Fallback não detecta.
+Fallback responde.
+
+---
+
+## Regra de Continuidade
+
+Fallback não deve:
+
+- produzir execução inconsistente
+- mascarar falhas com respostas plausíveis
+- manter fluxo como se não houvesse problema
+
+Fallback deve:
+
+- preservar integridade do sistema
+- manter utilidade possível
+- impedir degradação silenciosa
+
+---
+
 ## Última Atualização Confiável
-2026-04-09
+2026-04-10
