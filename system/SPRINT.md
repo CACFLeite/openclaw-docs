@@ -21,92 +21,104 @@ SPRINT não é agenda nem lista de tarefas.
 - não se avança por suposição;
 - o próximo passo nasce do estado real, não da vontade de “andar”;
 - bloqueios estruturais têm prioridade sobre otimizações locais;
-- foco dominante não impede avanço secundário, mas o organiza.
+- não há avanço consistente sem substrato funcional.
 
 ---
 
 ## Fase Atual do Sistema
 
 ### Fase dominante
-**Excellentia — ativação comercial (professores + escolas / NR-1)**
+**Reconstrução do núcleo operacional do sistema (OpenClaw + Painel Caio Leite)**
 
 Objetivo:
-- iniciar e validar geração de receita via:
-  - Meta Ads (professores)
-  - abordagem comercial para escolas (NR-1)
+- restaurar capacidade de operação do sistema;
+- substituir o núcleo cognitivo anterior por Rique;
+- garantir que o sistema possa:
+  - ler estado real;
+  - sustentar decisão;
+  - e executar com continuidade.
 
 Critério de conclusão da fase:
-- existência de fluxo real de venda (mesmo que inicial);
-- validação prática de canal de aquisição;
-- redução da dependência de tentativa isolada.
+- OpenClaw funcional como infraestrutura mínima confiável;
+- Painel Caio Leite operando como interface real de comando;
+- capacidade de leitura → decisão → execução restaurada;
+- eliminação da dependência crítica de soluções externas frágeis.
 
 ---
 
-### Fase secundária (suporte)
+### Fase secundária (suspensa)
 
-**Infraestrutura — OpenClaw / Painel Caio Leite**
-
-Função na fase atual:
-- remover bloqueios que impedem execução fluida;
-- reduzir atrito operacional;
-- permitir continuidade sem travamento técnico.
+**Excellentia — ativação comercial**
+**Moisés — início de distribuição**
 
 Observação:
-- não é foco principal, mas é fator limitante direto da fase dominante.
+- não são foco ativo enquanto o sistema estiver incapaz de operar com consistência;
+- devem ser retomados assim que a fase dominante for concluída.
 
 ---
 
 ## Bloqueio Estrutural Identificado
 
 ### Tipo dominante
-Comercial (ausência de geração de receita consistente)
+Infraestrutural / cognitivo
 
-### Causa correlata
-Dependência indireta de infraestrutura ainda instável (OpenClaw / Painel)
-
-Implicação:
-- o problema comercial não é apenas de venda;
-- há acoplamento com capacidade de execução e organização.
+### Descrição
+- perda do núcleo cognitivo anterior (Anthropic);
+- OpenClaw sem capacidade de operação integrada;
+- Painel Caio Leite não funcional como interface real;
+- impossibilidade de execução confiável de fluxos operacionais.
 
 ---
 
 ## Estratégia de Avanço
 
 ### Regra central
-Avançar na geração de receita **mesmo com imperfeição estrutural**, enquanto:
-- reduz bloqueios críticos em paralelo;
-- evita paralisia por espera de sistema ideal.
+Não avançar em execução de projetos enquanto o sistema não for capaz de sustentar essa execução.
 
 ---
 
 ### Organização da execução
 
-#### Linha principal (comercial)
-- ativação de Meta Ads
-- estruturação mínima de funil
-- abordagem de escolas (NR-1)
+#### Linha principal
+- reconstrução do OpenClaw:
+  - models
+  - fallbacks
+  - watchdog
+  - lógica central
 
-#### Linha secundária (infraestrutura)
-- resolver pontos que travam execução imediata
-- evitar reconstrução ampla fora de contexto
+- redefinição operacional do Painel Caio Leite:
+  - interface de comando
+  - integração com documentos
+  - operação com Rique
+
+---
+
+#### Linha secundária (observação)
+- manter consciência do estado de Excellentia e Moisés
+- evitar perda de contexto
+- não iniciar execução ativa
 
 ---
 
 ## Critérios de Continuidade
 
 A fase deve continuar enquanto:
-- não houver venda validada;
-- ou o fluxo comercial ainda for inconsistente;
-- ou o bloqueio estrutural ainda impactar execução.
+- o sistema não for operacionalmente confiável;
+- o OpenClaw estiver incompleto ou instável;
+- o Painel não substituir o Telegram como canal de comando;
+- houver necessidade de reconstrução estrutural.
 
 ---
 
 ## Critério de Transição de Fase
 
 A fase muda quando:
-- houver geração de receita consistente (mesmo que inicial);
-- ou surgir bloqueio estrutural mais dominante que o atual;
-- ou houver mudança explícita em PRIORITIES.
+- o sistema puder ser usado para:
+  - ler estado;
+  - decidir com contexto;
+  - autorizar execução;
+- houver consistência entre documentos e operação real;
+- a execução deixar de depender de improviso manual.
 
 ---
 
@@ -120,4 +132,4 @@ A fase muda quando:
 ---
 
 ## Última Atualização Confiável
-2026-04-10
+2026-04-11
