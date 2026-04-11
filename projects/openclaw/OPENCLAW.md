@@ -1,81 +1,94 @@
 # OPENCLAW
 
-## Função
-OpenClaw é a infraestrutura de inteligência, memória operacional, bots, automações e execução que sustenta o funcionamento do sistema.
+## Contexto
 
-Ele não deve ser tratado apenas como backend técnico.  
-É parte estrutural do cérebro operacional.
+O OpenClaw é a infraestrutura de inteligência, automação e operação do sistema.
 
----
+Ele não é apenas um projeto isolado, mas a camada que permite:
+- execução automatizada;
+- integração entre serviços;
+- continuidade operacional;
+- e uso prático da arquitetura documental.
 
-## Status Estratégico
-Infraestrutura crítica e transversal.
-
-## Status Operacional
-Funcional em partes, mas com fragilidades relevantes de governança, especialmente em modelos, fallbacks, semântica operacional e coerência entre automação e inteligência.
+Funciona como o meio técnico pelo qual o sistema deixa de ser apenas estrutura e passa a operar no mundo.
 
 ---
 
-## Objetivo Atual
-Reconstruir o OpenClaw para operar sobre a nova arquitetura documental e comportamental, com mais confiabilidade, modularidade e aderência ao sistema.
+## Estado atual
+
+- roda em VPS (Hetzner)
+- bots: funcionais
+- crons: funcionais
+- integrações: funcionais
+- lógica central: parcialmente comprometida
+
+Houve quebra relevante após restrição de uso da API da Anthropic em serviços externos.
+
+Impacto:
+- perda do núcleo cognitivo anterior;
+- comprometimento da articulação entre:
+  - raciocínio
+  - orquestração
+  - memória
+- sistema permanece operante em partes, mas sem coesão central.
 
 ---
 
-## Fonte de Verdade
-- Fonte primária: este arquivo
-- Fonte secundária: arquivos locais da pasta `projects/openclaw/`
-- Síntese executiva: [[../../system/SYSTEM]]
-- Foco imediato: [[../../system/NOW]]
+## Status
+
+🔴 Bloqueado
+
+Justificativa:
+- há estrutura funcional relevante;
+- há capacidade operacional parcial;
+- mas a função central do sistema (núcleo cognitivo) está comprometida.
 
 ---
 
-## Frentes Ativas
-- modelos
-- fallbacks
-- bots
-- crons
-- watchdog
-- integrações
-- governança operacional
+## Fase atual
+
+Reimplantação arquitetural do OpenClaw com substituição do núcleo cognitivo.
+
+Isso envolve:
+- remoção da dependência anterior (Anthropic);
+- definição de um novo cérebro operacional;
+- reorganização da lógica central do sistema;
+- preservação das partes já funcionais (bots, crons, integrações).
 
 ---
 
-## Diagnóstico Atual
-O OpenClaw já sustenta muita coisa relevante, mas hoje ainda sofre com:
-- governança insuficiente de fallback
-- contaminação comportamental sob modelos inferiores
-- fragilidade de crons dependentes de LLM
-- documentação distribuída e ambígua
-- dependência excessiva de memória contraditória
+## Próximos movimentos
+
+- definir o papel exato do novo núcleo cognitivo (Rique) no sistema;
+- reestruturar a lógica central sem reconstruir o que já funciona;
+- garantir que:
+  - execução,
+  - memória,
+  - e decisão
+  voltem a operar de forma integrada;
+- evitar expansão prematura antes de restabelecer coesão.
 
 ---
 
-## Subarquivos Relacionados
-- [[models]]
-- [[fallbacks]]
-- [[bots]]
-- [[crons]]
-- [[watchdog]]
-- [[integracoes]]
+## Observações
+
+- o principal problema não é técnico isolado, mas estrutural;
+- a quebra revelou dependência excessiva de um componente externo;
+- a reconstrução deve priorizar robustez e continuidade;
+- OpenClaw não deve ser tratado como projeto comum, mas como infraestrutura do sistema.
 
 ---
 
-## Relações com Outros Projetos
-- [[../caio-leite/painel-caio-leite]]
-- [[../excellentia/excellentia]]
-- [[../moises/moises]]
-- [[../mente-conexa/mente-conexa]]
+## Relação com o sistema
 
----
-
-## Próximo Passo Real
-Definir como o OpenClaw deve ser reconstruído para:
-- ler a nova arquitetura;
-- respeitar autoridade documental;
-- operar com fallbacks mais seguros;
-- e sustentar a futura interface cognitiva principal.
+- sustenta: execução e automação
+- viabiliza: uso prático da arquitetura documental
+- impacta diretamente:
+  - projetos (execução)
+  - system (operação)
+  - memory (continuidade)
 
 ---
 
 ## Última Atualização Confiável
-2026-04-09
+2026-04-10
