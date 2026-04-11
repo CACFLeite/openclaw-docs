@@ -167,5 +167,78 @@ Fallback deve:
 
 ---
 
+---
+
+## Regra de Hierarquia Cognitiva
+
+Fallback não pode redefinir o centro cognitivo do sistema.
+
+Quando o modelo principal estiver indisponível ou degradado, o sistema pode:
+
+- reduzir escopo;
+- adiar tarefas;
+- delegar tarefas mecânicas a modelos secundários;
+- operar em modo contingencial.
+
+Mas não pode:
+
+- tratar modelo secundário como substituto pleno do núcleo cognitivo;
+- permitir que modelo em fallback produza decisões estruturais como se mantivesse a mesma autoridade;
+- reconfigurar identidade, memória ou governança do sistema por simples troca técnica de provedor.
+
+---
+
+## Regra de Continuidade sob Troca de Provedor
+
+A troca de API, provedor ou modelo não altera, por si só:
+
+- a identidade operacional do sistema;
+- os princípios de memória e execução;
+- a hierarquia de prioridades;
+- os limites de atuação do núcleo cognitivo.
+
+Todo modelo usado como principal deve operar subordinado à arquitetura documental vigente.
+
+---
+
+## Fallback de Modelo Principal
+
+Quando o modelo principal falhar, o sistema deve distinguir entre:
+
+### 1. Continuidade cognitiva preservada
+Quando o novo modelo consegue operar sob o mesmo regime documental, com capacidade suficiente para manter coerência estrutural.
+
+Nesse caso:
+- pode assumir função principal provisória;
+- deve respeitar [[models]], [[../../core/SOUL]] e [[../../core/Principios-de-Memoria-e-Execucao]].
+
+### 2. Continuidade cognitiva degradada
+Quando o modelo alternativo só sustenta parte das funções.
+
+Nesse caso:
+- não deve assumir decisões estruturais;
+- deve operar apenas em tarefas compatíveis com sua capacidade;
+- deve sinalizar limitação e reduzir autonomia.
+
+---
+
+## Regra de Não Substituição Semântica
+
+Fallback técnico não equivale automaticamente a substituição semântica.
+
+Trocar o modelo sem preservar:
+- contexto,
+- princípios,
+- memória relevante,
+- e limites operacionais
+
+produz apenas continuidade aparente.
+
+O sistema deve preferir:
+- perda temporária de capacidade
+a
+- falsa continuidade com degradação invisível.
+
+---
 ## Última Atualização Confiável
 2026-04-10
