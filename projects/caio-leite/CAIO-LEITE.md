@@ -96,5 +96,139 @@ Definir a arquitetura conceitual do painel como interface cognitiva baseada em d
 
 ---
 
+---
+
+## Arquitetura Operacional do Painel
+
+A redefinição do painel só se completa quando ele deixa de ser conceito e passa a operar como ambiente de comando real.
+
+O painel deve funcionar como o ponto de convergência entre:
+- leitura do sistema;
+- interpretação contextual;
+- decisão;
+- e execução autorizada.
+
+---
+
+## Fluxo Real de Uso
+
+O uso do painel deve ocorrer como um ciclo contínuo:
+
+### 1. Leitura do estado do sistema
+O usuário inicia pelo dashboard, obtendo:
+- visão de prioridades;
+- fase atual (SPRINT);
+- estado dos projetos;
+- e principais tensões (open loops).
+
+Isso elimina a necessidade de reconstrução mental do sistema.
+
+---
+
+### 2. Entrada contextual em projeto ou área
+A partir da leitura, o usuário entra diretamente em:
+- um projeto (ex: OpenClaw, Excellentia)
+- ou uma área relevante
+
+A navegação deve preservar contexto.
+
+---
+
+### 3. Interação cognitiva situada
+Dentro do contexto, a interação com Rique ocorre:
+
+- não como chat genérico;
+- mas como leitura + interpretação do estado atual.
+
+Rique deve:
+- entender o projeto;
+- identificar fase e bloqueios;
+- e propor caminhos coerentes com o sistema.
+
+---
+
+### 4. Decisão e autorização
+O usuário:
+- valida a leitura;
+- toma decisão;
+- autoriza execução.
+
+Essa etapa substitui o uso atual do Telegram como canal de comando.
+
+---
+
+### 5. Execução via OpenClaw
+A execução não ocorre no painel.
+
+O painel:
+- envia comando;
+- o OpenClaw executa;
+- e o resultado retorna ao sistema.
+
+---
+
+## Papel do Painel no Sistema
+
+O painel não é:
+- executor;
+- nem fonte de verdade.
+
+O painel é:
+👉 **interface de comando e leitura do sistema**
+
+---
+
+## Substituição do Telegram
+
+O painel deve substituir o Telegram em três funções:
+
+### 1. Decisão
+A interação com IA passa a ser:
+- contextual;
+- documentada;
+- e conectada ao sistema.
+
+---
+
+### 2. Comando
+Ações deixam de ser disparadas em chat solto e passam a:
+- ocorrer com contexto;
+- respeitar limites do sistema;
+- e ser rastreáveis.
+
+---
+
+### 3. Continuidade
+Decisões passam a:
+- alimentar memória;
+- atualizar projetos;
+- e manter coerência ao longo do tempo.
+
+---
+
+## Critério de Funcionamento
+
+O painel estará correto quando:
+
+- permitir operar projetos diretamente;
+- substituir o Telegram como canal principal;
+- manter contexto entre decisões;
+- e integrar leitura, decisão e execução sem fricção excessiva.
+
+---
+
+## Tensão Arquitetural Central
+
+O principal desafio não é técnico, mas de integração:
+
+👉 como permitir fluidez de uso sem perder:
+- densidade;
+- estrutura;
+- e fidelidade às fontes de verdade.
+
+O painel deve simplificar o acesso,
+sem simplificar o sistema.
+
+---
 ## Última Atualização Confiável
 2026-04-09
