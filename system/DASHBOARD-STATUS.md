@@ -9,9 +9,6 @@ Ele existe para permitir, de forma rápida e confiável:
 - distinguir movimento de aparência de movimento;
 - e orientar decisão sem necessidade de reconstruir contexto.
 
-Não substitui os arquivos locais.  
-Sintetiza o estado atual com base neles.
-
 ---
 
 ## Princípios
@@ -19,98 +16,100 @@ Sintetiza o estado atual com base neles.
 - estado real acima de narrativa;
 - distinção clara entre ativo, bloqueado e inerte;
 - leitura rápida, mas semanticamente confiável;
-- evitar excesso de detalhe;
+- evitar aparência de progresso onde não há operação real;
 - refletir o sistema, não inventá-lo.
 
 ---
 
 ## Status dos Projetos Principais
 
-### Excellentia
-- Estratégico: prioritário
-- Operacional: ativo
-- Status: 🟡 Em ativação
+### OpenClaw
+- Estratégico: crítico
+- Operacional: inoperante
+- Status: 🔴 Bloqueado
 
 Observação:
-- foco em geração de receita (professores + escolas / NR-1)
-- ainda em fase de validação prática de vendas
-
----
-
-### Moisés
-- Estratégico: relevante
-- Operacional: parcialmente ativo
-- Status: 🟡 Em preparação
-
-Observação:
-- depende de avanço jurídico e início de divulgação estruturada
-
----
-
-### Mente Conexa
-- Estratégico: alto valor
-- Operacional: inerte no momento
-- Status: ⚪ Parado
-
-Observação:
-- sem tração ativa no estado atual do sistema
+- núcleo cognitivo comprometido;
+- dependência anterior (Anthropic) removida;
+- reconstrução em andamento.
 
 ---
 
 ### Painel Caio Leite
 - Estratégico: estrutural
-- Operacional: insuficiente
-- Status: 🔴 Limitante
+- Operacional: inexistente como interface real
+- Status: 🔴 Bloqueado / não operacional
 
 Observação:
-- não opera ainda como interface cognitiva funcional
+- não substitui o Telegram;
+- não opera como interface cognitiva;
+- depende da reconstrução do OpenClaw.
 
 ---
 
-### OpenClaw
-- Estratégico: crítico
-- Operacional: instável
-- Status: 🔴 Bloqueado / instável
+### Excellentia
+- Estratégico: prioritário (receita)
+- Operacional: suspenso
+- Status: 🟣 Pausado
 
 Observação:
-- impacta execução e continuidade do sistema
+- ativos parcialmente construídos;
+- automações quebradas;
+- dependente de OpenClaw funcional para execução consistente.
+
+---
+
+### Moisés
+- Estratégico: relevante
+- Operacional: pronto
+- Status: 🟡 Planejado
+
+Observação:
+- produto finalizado;
+- não iniciado em distribuição;
+- aguardando retomada após estabilização do sistema.
+
+---
+
+### Mente Conexa
+- Estratégico: secundário
+- Operacional: inerte
+- Status: ⚪ Parado
+
+Observação:
+- baixa prioridade no momento;
+- sem tração ativa.
 
 ---
 
 ## Leitura de Estado do Sistema
 
 ### Movimento dominante
-- tentativa de ativação comercial (Excellentia)
+- reconstrução do núcleo operacional do sistema
 
 ### Gargalo principal
-- ausência de geração de receita consistente
+- ausência de infraestrutura funcional (OpenClaw + Painel)
 
-### Gargalo estrutural correlato
-- fragilidade de infraestrutura (OpenClaw / Painel)
+### Consequência
+- impossibilidade de execução consistente dos projetos
 
 ---
 
 ## Interpretação Executiva
 
 O sistema está:
-- corretamente orientado em prioridade;
-- com tentativa de execução ativa;
-- porém limitado por:
-  - ausência de caixa;
-  - e fragilidade de suporte estrutural.
+- corretamente estruturado em nível documental;
+- porém inoperante em nível prático;
+- exigindo reconstrução do núcleo antes de qualquer execução relevante.
 
 ---
 
 ## Regra de uso
 
 Este dashboard deve ser usado para:
-- leitura rápida antes de decidir;
-- alinhamento de foco;
-- identificação de bloqueios reais.
-
-Não deve ser usado como:
-- substituto de análise;
-- ou justificativa para inércia.
+- leitura honesta do estado;
+- evitar autoengano operacional;
+- orientar decisões coerentes com a fase atual.
 
 ---
 
@@ -124,4 +123,4 @@ Não deve ser usado como:
 ---
 
 ## Última Atualização Confiável
-2026-04-10
+2026-04-11
