@@ -275,5 +275,93 @@ Esses detalhamentos não precisam estar todos aqui neste momento, mas devem ser 
 
 ---
 
+---
+
+## Detecção de Continuidade Cognitiva
+
+O watchdog deve ser capaz de identificar não apenas falhas técnicas, mas perda de coerência cognitiva do sistema.
+
+Isso inclui situações em que:
+
+- o modelo em uso não sustenta a complexidade necessária;
+- há simplificação indevida de problemas estruturais;
+- a resposta ignora princípios definidos em [[../../core/Principios-de-Memoria-e-Execucao]];
+- há desalinhamento com a identidade definida em [[../../core/SOUL]];
+- o sistema aparenta funcionar, mas perdeu capacidade de leitura relacional.
+
+---
+
+## Sinais de Quebra Cognitiva
+
+O watchdog deve tratar como sinal de degradação:
+
+- respostas genéricas em contexto que exige densidade;
+- decisões tomadas sem consideração de contexto suficiente;
+- repetição de sugestões já superadas;
+- perda de distinção entre estrutura, estado e execução;
+- respostas que ignoram o estado real dos projetos;
+- falsa confiança sob baixa capacidade de modelo.
+
+---
+
+## Classificação de Severidade Cognitiva
+
+### Nível 2 — Degradação Cognitiva
+- perda parcial de nuance
+- simplificação indevida
+- risco de decisões imprecisas
+
+Resposta:
+- reduzir escopo
+- evitar decisões estruturais
+- reforçar limites operacionais
+
+---
+
+### Nível 3 — Quebra Cognitiva
+- incapacidade de operar com coerência estrutural
+- decisões inconsistentes com o sistema
+- leitura inadequada de mensagens complexas
+
+Resposta:
+- interromper funções cognitivas críticas
+- limitar atuação a tarefas mecânicas
+- exigir reentrada com modelo adequado
+
+---
+
+## Regra de Proteção da Identidade
+
+O sistema não deve permitir que:
+
+- modelos inadequados operem como se fossem o núcleo cognitivo;
+- a identidade definida em [[../../core/SOUL]] seja perdida sob degradação;
+- decisões estruturais sejam tomadas sem capacidade real para sustentá-las.
+
+Preservar identidade é mais importante do que manter operação contínua.
+
+---
+
+## Integração com Models e Fallbacks
+
+- [[models]] define capacidade disponível
+- [[fallbacks]] define resposta à degradação
+- o watchdog deve:
+  - detectar quando a capacidade caiu abaixo do necessário
+  - impedir que o sistema opere fora de seus limites
+  - acionar o regime de fallback adequado
+
+---
+
+## Regra de Interrupção
+
+Quando houver quebra cognitiva relevante:
+
+- o sistema deve preferir interromper execução
+a
+- continuar operando com falsa coerência
+
+---
+
 ## Última Atualização Confiável
 2026-04-11
