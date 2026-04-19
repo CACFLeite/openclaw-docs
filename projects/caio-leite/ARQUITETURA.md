@@ -1,92 +1,246 @@
 # ARQUITETURA — PAINEL CAIO LEITE
 
 ## Função
-Este arquivo define a direção arquitetural do Painel Caio Leite como futura interface cognitiva principal do sistema.
+
+Este documento define a arquitetura do Painel Caio Leite como interface cognitiva do sistema.
+
+O painel não é um dashboard tradicional.  
+Ele é a camada de interação entre:
+
+- Caio  
+- Rique (núcleo cognitivo)  
+- OpenClaw (execução)  
+- e o grafo cognitivo  
 
 ---
 
-## Princípio Central
-O Painel Caio Leite não deve ser um dashboard tradicional com features isoladas.
-Ele deve ser uma interface cognitiva relacional, capaz de operar sobre documentos vivos, contexto, memória, prioridades e conexões entre frentes.
+## Princípio central
+
+O painel não armazena conhecimento.  
+O painel navega, interpreta e aciona o sistema.
 
 ---
 
-## Referência de Forma
-A referência mais adequada não é “site pessoal com IA”.
-A referência mais adequada é algo mais próximo de:
-- Obsidian
-- base documental viva
-- navegação relacional
-- síntese por contexto
-- IA integrada à estrutura
+## Estrutura do sistema
+
+O sistema é composto por quatro camadas:
+
+### 1. Fonte de verdade
+
+- arquivos Markdown (core, system, projects, etc.)
+
+Função:
+- armazenar conhecimento estruturado
+- sustentar memória confiável
 
 ---
 
-## O que o Painel Não Deve Ser
-- mais um site institucional
-- coleção dispersa de widgets
-- duplicação das fontes de verdade
-- chat solto sem contexto
-- painel que parece completo, mas não governa nada
+### 2. Motor cognitivo
+
+- Rique + OpenClaw
+
+Função:
+- interpretar contexto  
+- decidir  
+- executar  
+- estruturar conhecimento  
 
 ---
 
-## O que o Painel Deve Ser
-- interface principal de navegação do sistema
-- visualização das fontes de verdade
-- mapa de prioridades, bloqueios e relações
-- ponto de interação inteligente com documentos e projetos
-- ambiente de leitura e ação assistida por IA
-- alternativa principal ao Telegram
+### 3. Grafo cognitivo (nova camada)
+
+Função:
+- representar evolução de ideias, decisões e eventos  
+- conectar elementos ao longo do tempo  
+- permitir navegação relacional  
+
+Características:
+
+- não é igual à memória  
+- é altamente seletivo  
+- representa apenas o que tem impacto estrutural  
 
 ---
 
-## Capacidades Desejadas
-- abrir áreas e projetos como entidades vivas
-- visualizar estado estratégico e operacional
-- navegar por relações
-- ver bloqueios e dependências
-- conversar com IA em contexto do documento ou projeto
-- gerar sínteses situadas
-- registrar atualizações com autoridade clara
-- servir como camada de leitura do todo
+### 4. Interface (Painel)
+
+Função:
+- permitir leitura  
+- permitir navegação  
+- permitir interação  
+- permitir comando  
 
 ---
 
-## Relações Arquiteturais
-O painel deve conversar com:
-- substrato documental em Markdown
-- OpenClaw como motor de inteligência e automação
-- memória consolidada
-- integrações técnicas
-- áreas e projetos vivos
+## Princípio de separação
+
+- Markdown → fonte de verdade  
+- OpenClaw → execução  
+- Grafo → estrutura cognitiva  
+- Painel → interface  
+
+Nenhuma camada deve assumir função da outra.
 
 ---
 
-## Tensão Principal a Resolver
-Como transformar uma base documental relacional em experiência de uso fluida, bonita, poderosa e governante sem destruir sua riqueza estrutural.
+## Papel do painel
+
+O painel deve permitir:
+
+- abrir documentos  
+- navegar por relações  
+- entender estado do sistema  
+- interagir com Rique em contexto  
+- acionar execução  
+- visualizar o grafo  
 
 ---
 
-## Relaciona-se com
-- [[painel-caio-leite]]
-- [[app-caio-leite]]
-- [[funcoes-rique]]
-- [[../../system/SYSTEM]]
-- [[../../projects/openclaw/openclaw]]
+## Navegação
+
+O sistema deve permitir navegar por:
+
+- projeto  
+- área  
+- prioridade  
+- tempo  
+- relações  
+- consulta inteligente  
 
 ---
 
-## Próximo Passo Real
-Definir os modos primários de navegação do painel:
-- por projeto;
-- por área;
-- por prioridade;
-- por tempo;
-- por relação;
-- por consulta inteligente.
+## Integração com grafo cognitivo
+
+O painel deve permitir:
+
+- visualizar nós relevantes  
+- visualizar conexões  
+- explorar evolução ao longo do tempo  
+- acessar origem dos nós (decisão, evento, aprendizado)  
 
 ---
 
-## Última Atualização Confiável
-2026-04-09
+## Regra de criação de grafo
+
+O painel não cria grafo.
+
+Rique:
+
+- interpreta  
+- sugere  
+- estrutura  
+
+O sistema:
+
+- persiste  
+- organiza  
+- conecta  
+
+---
+
+## Curadoria
+
+Para elementos estruturais:
+
+- criação depende de validação de Caio  
+- o sistema não deve inflar automaticamente  
+
+---
+
+## Fluxo operacional
+
+### 1. Leitura
+- usuário vê estado do sistema  
+
+### 2. Entrada em contexto
+- projeto ou área  
+
+### 3. Interação
+- conversa com Rique contextualizada  
+
+### 4. Decisão
+- validação humana  
+
+### 5. Execução
+- OpenClaw executa  
+
+### 6. Atualização
+- memória atualizada  
+- grafo potencialmente atualizado  
+
+---
+
+## Regra de persistência
+
+Só persistir:
+
+- decisões  
+- mudanças estruturais  
+- aprendizados relevantes  
+
+Nunca persistir:
+
+- conversa bruta  
+- hipóteses não validadas  
+- conteúdo redundante  
+
+---
+
+## Relação com o Telegram
+
+Telegram deve ser:
+
+- canal secundário  
+- fallback  
+- não principal  
+
+O painel deve assumir:
+
+- decisão  
+- comando  
+- continuidade  
+
+---
+
+## Critério de funcionamento correto
+
+O sistema está correto quando:
+
+- o painel substitui o Telegram  
+- o grafo representa evolução real  
+- a memória não está inflada  
+- a execução acontece sem fricção  
+- e a navegação reflete o sistema  
+
+---
+
+## Tensão arquitetural central
+
+Equilibrar:
+
+- profundidade  
+- simplicidade de uso  
+- fidelidade estrutural  
+
+Sem:
+
+- perder densidade  
+- gerar complexidade artificial  
+
+---
+
+## Compromisso central
+
+O painel deve ser:
+
+👉 interface viva do sistema  
+
+Capaz de:
+
+- refletir o estado real  
+- permitir ação  
+- e estruturar evolução ao longo do tempo  
+
+Pergunta orientadora:
+
+**isso ajuda a navegar, decidir e estruturar o que realmente importa ao longo do tempo?**
